@@ -1,6 +1,8 @@
 File-file ini adalah pendukung materi belajar di Channel Youtube Soboteika:
 Tutorial Dasar Cara Penulisan Dokumen Javascript
 
+<img src="https://i.ytimg.com/an_webp/b1VJZpBCM-M/mqdefault_6s.webp?du=3000&sqp=CMXH3YEG&rs=AOn4CLBEdVLyPDYJyphYQDPwCzerqJLo1g">
+
 Video bisa dilihat di:
 https://youtu.be/b1VJZpBCM-M
 
