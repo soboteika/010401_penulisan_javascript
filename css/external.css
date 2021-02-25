@@ -1,0 +1,31 @@
+/*
+ * Script PHP ini adalah pendukung materi belajar di Channel Youtube Soboteika:
+ * Tutorial Dasar Cara Penulisan Dokumen Javascript
+ * 
+ * Video bisa dilihat di: 
+ * https://youtu.be/b1VJZpBCM-M
+*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d5d9df;
+}
+
+.judul {
+    color: rgb(165, 19, 51);
+    border-bottom: 1px dashed rgb(10, 146, 28);
+}
+
+.tbl1 {
+    width: 300px;
+}
+
+.tbl1 th {
+    border-bottom: 1px solid rgb(48, 45, 45);
+    border-top: 2px double red;
+    background-color: sandybrown;
+}
+
+.tbl1 td {
+    border-bottom: 1px dashed green;
+}

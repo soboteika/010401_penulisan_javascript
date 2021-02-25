@@ -1,0 +1,54 @@
+<!--
+ * Script PHP ini adalah pendukung materi belajar di Channel Youtube Soboteika:
+ * Tutorial Dasar Cara Penulisan Dokumen Javascript
+ * 
+ * Video bisa dilihat di: 
+ * https://youtu.be/b1VJZpBCM-M
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Embeded</title>
+</head>
+<link href="external.css" type="text/css" rel="stylesheet">
+<script type="text/javascript">
+    function a() {
+        alert('halo saya JS')
+    }
+
+    function b() {
+        var d = new Date();
+        document.getElementById('target').innerHTML = d
+    }
+
+    function tabel() {
+        var t = '';
+        var angka = Math.floor(Math.random() * 10) + 1;
+        for (var i = 1; i <= angka; i++) {
+            t = t + '<tr><td>' + i + '</td><td>Agus</td><td>Surabaya</td></tr>';
+        }
+        document.getElementById('tbody').innerHTML = t;
+    }
+</script>
+
+<body onload="tabel()">
+    <h3 class="judul" onclick="a()">Belajar CSS / Inline</h3>
+    <table class="tbl1">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Nama</th>
+                <th>Alamat</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+    <h3 onmouseover="b()">Ini bagian bawah</h3>
+    <span id="target" class="judul ">Halo saya CSS</span>
+    <button onclick="tabel()">klik</button>
+</body>
+
+</html>
