@@ -1,8 +1,6 @@
 File-file ini adalah pendukung materi belajar di Channel Youtube Soboteika:
 Tutorial Dasar Cara Penulisan Dokumen Javascript
 
-<b>bold</b>
-
 Video bisa dilihat di:
 https://youtu.be/b1VJZpBCM-M
 
